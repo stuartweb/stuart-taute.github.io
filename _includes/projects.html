@@ -9,7 +9,7 @@
         <h4 class="lowercase">
         <strong> <a href="{{ project.url }}">{{ project.name }}</a> </strong>
           <strong>  {{ project.platform }}</strong><br/><small>  {{ project.language }}  </small>
-          
+          {% if project.image %} <img href="{{project.image}}"> {% endif %}
           <small><div style="color:white"> {{ project.description }} </div></small>
         </h4>
         {% endfor %}
