@@ -1,0 +1,72 @@
+# Site settings
+
+url: "http://stuart.taute.com"
+title: "Stuart Taute"
+author: "Stuart Taute"
+description: "Stuart Taute: Fourth year at Georgia Tech, BE(Mech) 2016"
+keywords: "stuart, taute, stuart taute, Stuart Taute, Technology, mechanical engineering, college, college grad, grad, Haskell, Georgia Tech, gatech"
+favicon: "/img/favicon.ico"
+black-favicon: "/img/black-lab-glass.ico"
+google-tracking-id: "UA-71040845-1"
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Projects: 'projects'
+  Career: 'career'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+# Career variables
+
+events:
+  - title: "<a href=\"http://gatech.edu\" target=\"_blank\">Georgia Institute of Technology</a>"
+    image: "/img/career/tech.jpg"
+    date: "August 2012 - December 2016 (expected)"
+    description: "Bachelors degree in Mechanical Engineering"
+  - title: "<a href=\"http://haskell.com\" target=\"_blank\">Engineering Aide, Haskell</a>"
+    image: "/img/career/haskell.png"
+    date: "August 2014 - Present"
+    description: "Creation of feasible  for enterise-scale packaging solutions."
+  - title: "<a href=\"http://gtlambdachi.org\" target=\"_blank\">Treaurer, Lambda Chi Alpha, Georgia Tech</a>"
+    image: "/img/career/lca.jpg"
+    date: "December 2013 - Present"
+    description: "Treasury and bookkeeping for the Georgia Tech chapter of Lambda Chi Alpha. Raised tens of thousands of dollars for charitable organizations over three years."
+  - title: "<a href=\"http://ramblinwreck.com/sports/w-volley/geot-w-volley-body.html\" target=\"_blank\">Team Manager, Georgia Tech Women's Volleyball</a>"
+    image: "/img/career/volleyball.png"
+    date: "August 2012 - Present"
+    description: "Scorekeeping, equipment management, and other miscellaneous team support."
+
+# First image of the Career timeline
+career-img: "/img/career/dflt.png"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "linkedin"
+    url: "http://www.linkedin.com/in/stuart-taute-3284376a"
+  - title: "facebook"
+    url: "http://facebook.com/stuart.taute"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]

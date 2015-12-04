@@ -1,0 +1,11 @@
+  - name: "Ruse"
+    url: "https://github.com/abettadapur/RuseServer"
+    language: "Python, C#, Java"
+    platform: "Linux, Windows, Android"
+    description: "A remote controlled music service with Windows desktop and Android client applications. Uses the <a href=\"http://wamp.ws\" target=\"_blank\">WAMP</a> socket protocol to allow clients to control a central Google Music player."
+
+  - name: "DayTripper"
+    url: "https://github.com/abettadapur/DayTripper"
+    language: "Python, Java"
+    platform: "Android"
+    description: "An Android application that intelligently generates an itinerary for people who are in an unfamiliar city. Includes breakfast, lunch, and dinner options as well as recreational items. Uses the Yelp and Google Maps APIs."
