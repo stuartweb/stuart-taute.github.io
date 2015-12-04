@@ -40,7 +40,7 @@ events:
   - title: "<a href=\"http://gatech.edu\" target=\"_blank\">Georgia Institute of Technology</a>"
     image: "/img/career/tech.jpg"
     date: "August 2012 - December 2016 (expected)"
-    description: "Bachelors degree in Mechanical Engineering"
+    description: "Bachelors degree in Mechanical Engineering."
   - title: "<a href=\"http://haskell.com\" target=\"_blank\">Engineering Aide, Haskell</a>"
     image: "/img/career/haskell.png"
     date: "August 2014 - Present"
